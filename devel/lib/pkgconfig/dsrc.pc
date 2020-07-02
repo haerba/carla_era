@@ -1,0 +1,8 @@
+prefix=/home/ics/catkin_ws/devel
+
+Name: dsrc
+Description: Description of dsrc
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

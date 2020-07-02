@@ -1,0 +1,7 @@
+<launch>
+
+  <arg name="robot_name" value="r0"/>
+  <group ns="$(arg robot_name)">
+  <include file="$(find turtlebot3_teleop)/launch/turtlebot3_teleop_key.launch"/>
+  </group>
+</launch>
